@@ -1,0 +1,8 @@
+name: 'Oracle Instant Client for Linux x64'
+description: 'Installs the most current Oracle Instant Client for Linux x64'
+author: 'Bill Christo'
+runs:
+  using: 'composite'
+  steps:
+    - run: ${{ github.action_path }}/commands.sh
+      shell: bash
